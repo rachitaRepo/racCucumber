@@ -15,6 +15,7 @@ import utils.CommonUtils;
 
 public class Login {
 	
+	//updated by rachita
 	WebDriver driver;
 	private LoginPage loginPage;
 	private AccountPage accountPage;
@@ -35,7 +36,7 @@ public class Login {
 	public void User_enters_valid_email_address_into_email_field(String emailText) {
 		
 		loginPage.enterEmailAddress(emailText);
-		
+	
 	}
 	
 	@And("^User enters valid password (.+) into password field$")
